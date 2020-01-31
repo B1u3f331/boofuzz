@@ -74,7 +74,7 @@ If you want to use process\_monitor.py, follow these additional steps:
 
 3. Verify that process\_monitor.py runs:
 
-    ::
+    .. code-block:: batch
 
         C:\Users\IEUser\Downloads\boofuzz>python process_monitor.py -h
         usage: procmon [-h] [--debug] [--quiet] [-f STR] [-c FILENAME] [-i PID]
