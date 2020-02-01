@@ -15,6 +15,7 @@ recursive-include utils *.py
 include tox.ini
 
 recursive-include docs *.bat
+recursive-include docs *.css
 recursive-include docs *.py
 recursive-include docs *.rst
 recursive-include docs Makefile
@@ -22,4 +23,5 @@ recursive-include docs Makefile
 recursive-include _static *.png
 recursive-include docs *.png
 
+exclude .readthedocs.yml
 prune docs/_build
